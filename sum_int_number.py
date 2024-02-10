@@ -6,4 +6,6 @@ def sum_int_number(number):
     return sum_result
 
 if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
     print(sum_int_number(10))
