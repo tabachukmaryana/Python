@@ -1,3 +1,4 @@
+
 def sum_int_number(number):
     sum_result = 0
     for num in range(number + 1):
