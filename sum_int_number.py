@@ -1,9 +1,5 @@
-
 def sum_int_number(number):
-    sum_result = 0
-    for num in range(number + 1):
-        sum_result += num
-    return sum_result
+    return sum(range(number + 1))
 
 if __name__ == "__main__":
     print(sum_int_number(10))
